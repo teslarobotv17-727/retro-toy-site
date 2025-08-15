@@ -37,10 +37,6 @@ main {
   justify-content: center; /* centers horizontally */
 }
 
-.hero {
-  text-align: center; /* centers text inside */
-}
-
 /* Hero Image */
 .hero {
   margin-bottom: 2rem;
@@ -52,6 +48,10 @@ main {
 }
 .hero-text {
   margin-top: 1rem;
+}
+picture img {
+  display: block;
+  margin: 0 auto;
 }
 
 /* Gallery Grid */
