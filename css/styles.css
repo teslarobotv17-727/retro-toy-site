@@ -17,6 +17,23 @@ img {
   display: block;
 }
 
+/* Nav */
+.horizontal-nav {
+  text-align: center; /* centers the inline links */
+  font-family: sans-serif;
+  margin: 20px 0;
+}
+
+.horizontal-nav a {
+  text-decoration: none;
+  color: #333;
+  padding: 0 10px;
+}
+
+.horizontal-nav a:hover {
+  color: #d35400; /* retro orange highlight */
+}
+
 /* Layout */
 header, nav, main, footer {
   margin-bottom: 2rem;
