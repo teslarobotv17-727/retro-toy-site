@@ -1,15 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Contact Us | Retro Toy Store</title>
-  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact - Retro Toys of the 1960's</title>
+  <link rel="stylesheet" href="css/styles.css" />
 </head>
 <body>
   <header>
-    <h1 style="text-align: center;">Contact Us</h1>
-    <p style="text-align: center;">We'd love to hear from you!</p>
+    <h1 style="text-align: center;">Retro Toys of the 1960's</h1>
     <nav class="horizontal-nav">
       <a href="index.html">Home</a> |
       <a href="gallery.html">Gallery</a> |
@@ -19,22 +18,32 @@
   </header>
 
   <main>
-    <form action="submit-form.php" method="POST">
-      <label for="name">Name:</label>
-      <input type="text" id="name" name="name" required>
+    <section>
+      <h2 style="text-align: center;">Contact Us</h2>
+      <p style="text-align: center;">We'd love to hear from you! Reach out using the details below.</p>
+      <div style="text-align: center; margin-bottom: 2rem;">
+        <p><strong>Email:</strong> sample@email.com</p>
+        <p><strong>Phone:</strong> +1 (555) 123-4567</p>
+        <p><strong>Address:</strong> sample address</p>
+      </div>
 
-      <label for="email">Email:</label>
-      <input type="email" id="email" name="email" required>
+      <div class="contact-form" style="margin: 0 auto;">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" disabled />
 
-      <label for="message">Message:</label>
-      <textarea id="message" name="message" rows="5" required></textarea>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" disabled />
 
-      <button type="submit">Send Message</button>
-    </form>
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="5" disabled></textarea>
+
+        <button type="submit" disabled>Send Message</button>
+      </div>
+    </section>
   </main>
 
-  <footer>
-    <p>&copy; 2025 Retro Toy Store</p>
-  </footer>
+  <footer class="attribution">
+    footer </footer>
 </body>
 </html>
+
