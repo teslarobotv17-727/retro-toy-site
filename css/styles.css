@@ -1,0 +1,88 @@
+/* Base Reset and Typography */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #fdf6e3;
+  color: #333;
+  padding: 1rem;
+}
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Layout */
+header, nav, main, footer {
+  margin-bottom: 2rem;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+nav a {
+  text-decoration: none;
+  color: #0077cc;
+  font-weight: bold;
+}
+
+/* Hero Image */
+.hero {
+  margin-bottom: 2rem;
+}
+.hero picture {
+  display: block;
+  aspect-ratio: 2 / 1;
+  overflow: hidden;
+}
+.hero-text {
+  margin-top: 1rem;
+}
+
+/* Gallery Grid */
+.gallery-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
+.gallery-grid img {
+  aspect-ratio: 1 / 1;
+  width: 100%;
+  object-fit: cover;
+}
+
+/* About & Contact */
+section {
+  margin-bottom: 2rem;
+}
+.contact-form {
+  display: grid;
+  gap: 1rem;
+  max-width: 600px;
+}
+
+/* Attribution */
+.attribution {
+  font-size: 0.8rem;
+  color: #666;
+  margin-top: 1rem;
+}
+
+/* Media Queries */
+@media (min-width: 600px) {
+  .gallery-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (min-width: 960px) {
+  .gallery-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
