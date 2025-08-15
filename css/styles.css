@@ -32,6 +32,14 @@ nav a {
   color: #0077cc;
   font-weight: bold;
 }
+main {
+  display: flex;
+  justify-content: center; /* centers horizontally */
+}
+
+.hero {
+  text-align: center; /* centers text inside */
+}
 
 /* Hero Image */
 .hero {
