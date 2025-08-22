@@ -23,11 +23,10 @@ img {
   font-style: normal;
 }
 
-
 /* Nav */
 .horizontal-nav {
   text-align: center; /* centers the inline links */
-  font-family: sans-serif;
+  font-family: 'American Captain', sans-serif;
   margin: 20px 0;
 }
 
