@@ -16,6 +16,13 @@ img {
   height: auto;
   display: block;
 }
+@font-face {
+  font-family: 'OrangeStreet-Clean';
+  src: url('../fonts/OrangeStreet-Clean.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 
 /* Nav */
 .horizontal-nav {
