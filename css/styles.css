@@ -17,8 +17,8 @@ img {
   display: block;
 }
 @font-face {
-  font-family: 'OrangeStreet-Clean';
-  src: url('../fonts/OrangeStreet-Clean.ttf') format('truetype');
+  font-family: 'American Captain';
+  src: url('../fonts/American Captain.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
