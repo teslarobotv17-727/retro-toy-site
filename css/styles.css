@@ -24,7 +24,7 @@ img {
 }
 @font-face {
   font-family: 'CreatoDisplay-Regular';
-  src: url('../fonts/CreatoDisplay-Regular.ttf') format('truetype');
+  src: url('../fonts/CreatoDisplay-Regular.otf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
