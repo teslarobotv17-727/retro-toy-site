@@ -26,12 +26,12 @@ img {
 /* Nav */
 .horizontal-nav {
   text-align: center; /* centers the inline links */
-  font-family: 'American Captain', sans-serif;
   margin: 20px 0;
 }
 
 .horizontal-nav a {
   text-decoration: none;
+  font-family: 'American Captain', sans-serif;
   color: #333;
   padding: 0 10px;
 }
