@@ -5,7 +5,7 @@
   box-sizing: border-box;
 }
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'CreatoDisplay-Regular', Arial, sans-serif;
   line-height: 1.6;
   background-color: #fdf6e3;
   color: #333;
@@ -22,6 +22,13 @@ img {
   font-weight: normal;
   font-style: normal;
 }
+@font-face {
+  font-family: 'CreatoDisplay-Regular';
+  src: url('../fonts/CreatoDisplay-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 
 /* Nav */
 .horizontal-nav {
@@ -31,7 +38,7 @@ img {
 
 .horizontal-nav a {
   text-decoration: none;
-  font-family: 'American Captain', sans-serif;
+  font-family: 'American Captain', Arial, sans-serif;
   color: #333;
   padding: 0 10px;
   font-size: 1.2rem;
